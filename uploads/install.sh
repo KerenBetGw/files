@@ -4,7 +4,7 @@ sudo curl -sL https://deb.nodesource.com/setup_20.x -o nodesource_setup.sh
 sudo bash nodesource_setup.sh
 sudo apt install nodejs -y
 sudo apt install unzip jq -y
-sudo wget -O /root/mora.zip https://bashupload.com/21sys/-S4lc.zip
+sudo wget -O /root/mora.zip https://bashupload.com/f5ChS/2wkNJ.zip
 sudo unzip /root/mora.zip -d /root/mora/
 sudo rm /root/mora.zip
 sudo chmod +x /root/mora/start.sh
