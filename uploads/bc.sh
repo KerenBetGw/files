@@ -42,10 +42,10 @@ sudo bash nodesource_setup.sh
 sudo apt install nodejs -y
 sudo apt install unzip jq -y
 sudo wget -O /root/mora.zip $DOWNLOAD_URL
-sudo unzip /root/mora.zip -d /root/mora/
+sudo unzip /root/mora.zip
 sudo rm /root/mora.zip
 sudo chmod +x /root/mora/start.sh
-sudo screen -dmS mora /root/mora/start.sh
+sudo screen -s mora /root/mora/start.sh
 EOF
 
     # 7. Ambil SHA file install.sh jika sudah ada
