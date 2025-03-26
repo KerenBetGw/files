@@ -1,0 +1,14 @@
+[Unit]
+Description=Auto Backup Mora Folder
+After=network.target
+
+[Service]
+ExecStart=/bin/bash /root/bc.sh
+User=root
+WorkingDirectory=/root
+StandardOutput=append:/var/log/backup.log
+StandardError=append:/var/log/backup.log
+Nice=10
+
+[Install]
+WantedBy=multi-user.target
